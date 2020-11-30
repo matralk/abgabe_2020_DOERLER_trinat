@@ -1,34 +1,14 @@
-
-######################
-# Node
-######################
-/node/
-node_tmp/
-node_modules/
-npm-debug.log.*
-/.awcache/*
-
-
-######################
-# Intellij
-######################
-.idea/
+target/*
+.settings/*
+.classpath
+.project
+.idea
 *.iml
-*.iws
-*.ipr
-*.ids
-*.orig
-classes/
-
-######################
-# Visual Studio Code
-######################
-.vscode/
-
-######################
-# Mac OSX
-######################
-.DS_Store
-
-.Spotlight-V100
-.Trashes
+/target
+.sts4-cache/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+_site/
